@@ -1,0 +1,1 @@
+model_names: ["yolov3-based", "yolov5-based", "yolov6-based", "yolov8-based", "yolov9c-based", "yolov9e-based", "vision-transformers"]
