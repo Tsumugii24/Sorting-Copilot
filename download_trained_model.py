@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT_PATH = sys.path[0]  # 项目根目录
 
 fonts_list = ["SimSun.ttf", "TimesNewRoman.ttf", "malgun.ttf"]  # 字体列表
-models_list = ["cnn_se.pt", "detr_based.pt", "vit_based.pt", "yolov5_based.pt", "yolov8_based.pt"] # 模型列表
+models_list = ["yolov3.pt", "yolov5.pt", "yolov6.pt", "yolov8.pt", "yolov9c.pt", "yolov9e.pt", "vision-transformers.pt"] # 模型列表
 fonts_directory_path = Path(ROOT_PATH, "fonts")  # 字体存放目录
 models_directory_path = Path(ROOT_PATH, "models")  # 模型存放目录
 
@@ -18,13 +18,13 @@ data_url_dict = {
 }
 
 model_url_dict = {
-    "yolov3.pt": "https://huggingface.co/Tsumugii/lesion-cells-det/resolve/main/cnn_se.pt",
-    "yolov5.pt": "https://huggingface.co/Tsumugii/lesion-cells-det/resolve/main/detr_based.pt",
-    "yolov6.pt": "https://huggingface.co/Tsumugii/lesion-cells-det/resolve/main/vit_based.pt",
-    "yolov8.pt": "https://huggingface.co/Tsumugii/lesion-cells-det/resolve/main/yolov5_based.pt",
-    "yolov9c.pt": "https://huggingface.co/Tsumugii/lesion-cells-det/resolve/main/yolov8_based.pt",
-    "yolov9e.pt": "https://huggingface.co/Tsumugii/lesion-cells-det/resolve/main/yolov8_based.pt",
-    "vision-transformers.pt": "https://huggingface.co/Tsumugii/lesion-cells-det/resolve/main/yolov8_based.pt",
+    "yolov3.pt": "https://huggingface.co/Tsumugii/Sorting-Copilot/resolve/main/yolov3-based.pt",
+    "yolov5.pt": "https://huggingface.co/Tsumugii/Sorting-Copilot/resolve/main/yolov5-based.pt",
+    "yolov6.pt": "https://huggingface.co/Tsumugii/Sorting-Copilot/resolve/main/yolov6-based.pt",
+    "yolov8.pt": "https://huggingface.co/Tsumugii/Sorting-Copilot/resolve/main/yolov8-based.pt",
+    "yolov9c.pt": "https://huggingface.co/Tsumugii/Sorting-Copilot/resolve/main/yolov9c-based.pt",
+    "yolov9e.pt": "https://huggingface.co/Tsumugii/Sorting-Copilot/resolve/main/yolov9e-based.pt",
+    "vision-transformers.pt": "https://huggingface.co/Tsumugii/Sorting-Copilot/resolve/main/vision-transformers.pt",
 }
 
 # 判断字体文件是否存在
